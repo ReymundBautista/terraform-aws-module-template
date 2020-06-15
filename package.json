@@ -1,0 +1,19 @@
+{
+  "name": "terraform-aws-module-template",
+  "version": "1.0.0",
+  "description": "Template for bootstrapping Terraform modules",
+  "repository": "https://github.com/reymundbautista/terraform-aws-module-template.git",
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz"
+  }
+}
+  
